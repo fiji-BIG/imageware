@@ -24,6 +24,11 @@
 		</dependency>
 	</dependencies>
 
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/imageware/</url>
+	</ciManagement>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/imageware</connection>
 		<developerConnection>scm:git:git@github.com:fiji/imageware</developerConnection>
