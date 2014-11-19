@@ -17,6 +17,30 @@
 
 	<name>jars/imageware.jar</name>
 	<description></description>
+	<url>http://fiji.sc/Imageware</url>
+	<inceptionYear>2010</inceptionYear>
+
+	<licenses>
+		<license>
+			<name>BIG</name>
+			<url>http://fiji.sc/BIG_License</url>
+			<distribution>repo</distribution>
+			<comments>Not an OSS license!</comments>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Daniel Sage</name>
+			<url>http://bigwww.epfl.ch/sage/</url>
+			<organization>Biomedical Imaging Group, EPFL</organization>
+			<organizationUrl>http://bigwww.epfl.ch/</organizationUrl>
+			<roles>
+				<role>maintainer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+	</developers>
 
 	<scm>
 		<connection>scm:git:git://github.com/fiji/imageware</connection>
